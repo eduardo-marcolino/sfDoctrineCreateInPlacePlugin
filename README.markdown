@@ -20,7 +20,6 @@ First, enable the sfDoctrineCreateInPlace module in the settings.yml:
 
 Then, change your form:
 
-    [php]
     $this->widgetSchema['author_id'] = new sfWidgetFormDoctrineChoiceCreateInPlace(array(
         'height' => 300,
         'model' => $this->getRelatedModelName('Author'), 
